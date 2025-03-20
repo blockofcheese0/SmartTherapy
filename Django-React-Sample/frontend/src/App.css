@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+.left-column {
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.right-column {
+  width: 70%;
+  padding: 20px;
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.patient-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.patient-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.patient-list li:hover {
+  background-color: #ddd;
+}
+
+.welcome-image {
+  max-width: 100%;
+  height: auto;
+}

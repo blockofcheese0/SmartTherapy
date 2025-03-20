@@ -6,6 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the dependencies required for the project. Run this command before starting the development server.
+
+If you encounter the error `Cannot find module '../scripts/start'`, you may need to install `react-scripts` manually by running:
+
+```
+npm install react-scripts
+```
+
 ### `npm start`
 
 Runs the app in the development mode.\
