@@ -47,6 +47,8 @@
   padding: 20px;
   background-color: #f0f0f0;
   overflow-y: auto; /* Add scroll if content overflows */
+  display: flex;
+  flex-direction: column;
 }
 
 .right-column {
@@ -64,6 +66,7 @@
 .patient-list {
   list-style-type: none;
   padding: 0;
+  flex-grow: 1; /* Make the list take the remaining space */
 }
 
 .patient-list li {
